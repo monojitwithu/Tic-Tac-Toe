@@ -1,62 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-      <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./tic-tac-toe.css" rel="styleSheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./tic-tac-toe.css" rel="styleSheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <title>Tic-tac-toe</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1 class="heading">Lets Play tic tac toe!</h1>
-    <h3 class="winner-display"> is the Winner!!</h3>
-    <h4  class="turn-display">Your turn</h4>
+    <h3 class="winner-display">is the Winner!!</h3>
+    <h4 class="turn-display">Your turn</h4>
 
     <div class="play-area">
-         <div class="play-cells"onclick="cellClickHandler(0,0,0)"></div>
-         <div class="play-cells"onclick="cellClickHandler(0,1,1)"></div>
-         <div class="play-cells"onclick="cellClickHandler(0,2,2)"></div>
-         <div class="play-cells"onclick="cellClickHandler(1,0,3)"></div>
-         <div class="play-cells"onclick="cellClickHandler(1,1,4)"></div>
-         <div class="play-cells"onclick="cellClickHandler(1,2,5)"></div>
-         <div class="play-cells"onclick="cellClickHandler(2,0,6)"></div>
-         <div class="play-cells"onclick="cellClickHandler(2,1,7)"></div>
-         <div class="play-cells"onclick="cellClickHandler(2,2,8)"></div>
+      <div class="play-cells" onclick="cellClickHandler(0,0,0)"></div>
+      <div class="play-cells" onclick="cellClickHandler(0,1,1)"></div>
+      <div class="play-cells" onclick="cellClickHandler(0,2,2)"></div>
+      <div class="play-cells" onclick="cellClickHandler(1,0,3)"></div>
+      <div class="play-cells" onclick="cellClickHandler(1,1,4)"></div>
+      <div class="play-cells" onclick="cellClickHandler(1,2,5)"></div>
+      <div class="play-cells" onclick="cellClickHandler(2,0,6)"></div>
+      <div class="play-cells" onclick="cellClickHandler(2,1,7)"></div>
+      <div class="play-cells" onclick="cellClickHandler(2,2,8)"></div>
     </div>
     <div class="action-container">
-         <input class="player-X" placeholder="Player-X"  type="text">
-         <button type="button" class="refresh-button scale-animate" onclick="refreshClickHandler()">refresh</button>
-         <input  class="player-O" placeholder="Player-0" value="" type="text"/>
+      <input class="player-X" placeholder="Player-X" type="text" />
+      <button
+        type="button"
+        class="refresh-button scale-animate"
+        onclick="refreshClickHandler()"
+      >
+        refresh
+      </button>
+      <input class="player-O" placeholder="Player-0" value="" type="text" />
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="./tic-tac-toe.js"></script>
-    
-</body>
+  </body>
 </html>
